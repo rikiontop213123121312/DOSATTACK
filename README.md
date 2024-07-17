@@ -1,7 +1,5 @@
 # How to use this program
 
-# IN ALL THE TUTORIALS PYTHON IT'S REQUIRED!
-
 
 
 ## Install Python on ISH, Termux, Linux and Windows
