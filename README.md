@@ -1,6 +1,6 @@
 # How to use this program
 
-#IN ALL THE TUTORIALS PYTHON IT'S REQUIRED!
+# IN ALL THE TUTORIALS PYTHON IT'S REQUIRED!
 
 ## On Windows
 1. Download the ripository [here](https://github.com/rikiontop213123121312/DOSATTACK/archive/refs/heads/main.zip)
