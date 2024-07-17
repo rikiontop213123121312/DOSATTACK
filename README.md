@@ -21,7 +21,7 @@
 4. `cd DOSATTACK`
 5. `python3 pip install -r requirements.txt` Install al the necessary libs
 6. `python3 Dos.py`
-## On Linux (Ubuntu,Debian,Kali exc)
+## On Linux (Ubuntu,Debian,Kali exc) ([download here](https://apps.apple.com/us/app/ish-shell/id1436902243))
 1. `sudo apt update` Update Linux
 2. `sudo apt install git` Install git
 3. `git clone https://github.com/rikiontop213123121312/DOSATTACK.git` Clone the ripository
