@@ -20,7 +20,7 @@
 4. `cd DOSATTACK`
 5. `pip3 install -r requirements.txt` Install al the necessary libs
 6. `python3 Dos.py`
-## On Termux (Android) ([download here](https://dw.uptodown.com/dwn/hP9LSR0ncwXuXIyfaxHzFXPTbXVo-iyJwi0NNjcTmXlOWzK8OWRqdWgroLX6Ry85X3DctTYpaF0WH77imsTAGa9EYABKbgYBVe_gqvuNbb0TW9723I_RazMvATvJvHVc/HaATMKlUg-SuvV58-Gb7sTkzPHq40Ovc4XMctNUdbJ-QRySGqYRjGZHwaeliWE_aoZRbdNPosT6VqMqctLgZmLJjIYBn1MmrKCQ6PtlBLK_z6aliWwP7e6KWp2SMyfHp/1YqinViJnO2-jTKVjUHLC8Aoa1vfLnUdLLe8-AfM5Gv8SRbslE7BrupEYF-rXUPUa0RdpQKhhNhEDzv0cdYr14BANlUYZGt0lu42QBAgk74=/](https://play.google.com/store/apps/details?id=com.termux&hl=en))
+## On Termux (Android) ([download here](https://play.google.com/store/apps/details?id=com.termux&hl=en))
 1. `pkg update` Update Termux
 2. `pkg install git` Install git
 3. `git clone https://github.com/rikiontop213123121312/DOSATTACK.git` Clone the ripository
