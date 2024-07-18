@@ -13,7 +13,7 @@
 2. Extract the zip file
 3. Start Dos.py
 4. Enjoy
-## On ISH (Iphone) download [here](https://apps.apple.com/us/app/ish-shell/id1436902243)
+## On ISH (Iphone) ([download here](https://apps.apple.com/us/app/ish-shell/id1436902243))
 1. `apk update` Update ISH
 2. `apk add git` Install git
 3. `git clone https://github.com/rikiontop213123121312/DOSATTACK.git` Clone the ripository
