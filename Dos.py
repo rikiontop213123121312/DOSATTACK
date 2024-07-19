@@ -16,7 +16,7 @@ TEXT = '''  _   _ ______ _________          ______  _____  _  __   ____   ____  
 print(TEXT)
 TARGET_HOST = input("Ip> ")
 TARGET_PORT = int(input("Port> "))
-NUM_CONNECTIONS = int(input("Connections> ")
+NUM_CONNECTIONS = int(input("Connections> "))
 dd = 30*1024*1024
 extra_data = random._urandom(dd)
 
